@@ -18,7 +18,7 @@ import { useAuth } from "@/contexts/auth-context";
 import { DateNavigator } from "@/components/calendar/header/date-navigator";
 import FilterEvents from "@/components/calendar/header/filter";
 import { TodayButton } from "@/components/calendar/header/today-button";
-import { UserSelect } from "@/components/calendar/header/user-select";
+
 import { Settings } from "@/components/calendar/settings/settings";
 import { ModeToggle } from "@/components/mode-toggle";
 import Views from "./view-tabs";

@@ -7,7 +7,6 @@ import { useMemo, useCallback } from "react";
 
 import { cn } from "@/lib/utils";
 import {
-  staggerContainer,
   transition,
 } from "@/components/calendar/animations";
 import { EventListDialog } from "@/components/calendar/dialogs/events-list-dialog";

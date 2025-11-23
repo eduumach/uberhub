@@ -6,7 +6,7 @@ import {
     Rocket,
     Users,
     Calendar,
-    TrendingUp,
+
     ArrowRight,
     Zap,
     Building2,
