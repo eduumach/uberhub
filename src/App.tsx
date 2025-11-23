@@ -7,6 +7,7 @@ import {
   Vagas,
   Eventos,
   Noticias,
+  NoticiaDetalhes,
   Oportunidades,
   Investimentos,
   Beneficios,
@@ -30,6 +31,7 @@ function App() {
               <Route path="/vagas" element={<Vagas />} />
               <Route path="/eventos" element={<Eventos />} />
               <Route path="/noticias" element={<Noticias />} />
+              <Route path="/noticias/:id" element={<NoticiaDetalhes />} />
               <Route path="/oportunidades" element={<Oportunidades />} />
               <Route path="/investimentos" element={<Investimentos />} />
               <Route path="/beneficios" element={<Beneficios />} />
