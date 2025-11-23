@@ -1,0 +1,19 @@
+# Use the static site provider
+providers = ["node"]
+
+[variables]
+NODE_VERSION = "22"
+
+[phases.setup]
+nixPkgs = ["nodejs_22", "bun", "caddy"]
+
+[phases.install]
+cmds = ["npm ci"]
+
+[phases.build]
+cmds = ["bun run build"]
+
+[start]
+cmd = """
+cd dist && caddy file-server --listen :${PORT:-3000} --access-log
+"""
