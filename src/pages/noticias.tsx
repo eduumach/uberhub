@@ -7,7 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const mockNews = [
     {
         id: 1,
-        title: "Uberhub lança nova plataforma de integração",
+        title: "rerivalley lança nova plataforma de integração",
         description: "A nova plataforma promete revolucionar a forma como startups se conectam com o ecossistema de inovação.",
         category: "Produto",
         date: "2025-11-20",
@@ -17,7 +17,7 @@ const mockNews = [
     {
         id: 2,
         title: "Startup incubada conquista investimento de R$ 5 milhões",
-        description: "TechNova, incubada no Uberhub, fecha rodada seed com investidores nacionais e internacionais.",
+        description: "TechNova, incubada no rerivalley, fecha rodada seed com investidores nacionais e internacionais.",
         category: "Investimento",
         date: "2025-11-18",
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
@@ -26,7 +26,7 @@ const mockNews = [
     {
         id: 3,
         title: "Evento de networking reúne mais de 200 empreendedores",
-        description: "Uberhub Connect foi um sucesso absoluto, promovendo conexões valiosas no ecossistema.",
+        description: "rerivalley Connect foi um sucesso absoluto, promovendo conexões valiosas no ecossistema.",
         category: "Eventos",
         date: "2025-11-15",
         image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",

@@ -12,6 +12,6 @@ export default defineConfig({
     },
   },
   server: {
-    allowedHosts: ["98924af988e5.ngrok-free.app", "uberhub.rifeeh.com"],
+    allowedHosts: ["98924af988e5.ngrok-free.app", "rerivalley.rifeeh.com"],
   },
 })

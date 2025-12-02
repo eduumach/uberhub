@@ -4,7 +4,7 @@ import type { IEvent, IUser } from "@/components/calendar/interfaces";
 export const USERS_MOCK: IUser[] = [
 	{
 		id: "f3b035ac-49f7-4e92-a715-35680bf63175",
-		name: "UberHub Admin",
+		name: "rerivalley Admin",
 		picturePath: null,
 	},
 ];
@@ -44,7 +44,7 @@ export const CALENDAR_ITEMS_MOCK: IEvent[] = [
 	createEvent(1, "Jornada Nacional da Inovação - Etapa Estadual", 11, 18, 8, 30, "Sesi Gravatás", "https://lembre.se/119Do"),
 	createEvent(2, "Do produto ao investimento: crescendo com responsabilidade", 11, 19, 19, 0, "Casa UNA", "https://lembre.se/1d5VA"),
 	createEvent(3, "CASE - Conferência anual de startups", 11, 27, 8, 0, "São Paulo", "https://lembre.se/197D5", 10, 28),
-	createEvent(4, "UberHub Podcast", 11, 17, 18, 0, "Online", "https://lembre.se/qE4AE"),
+	createEvent(4, "rerivalley Podcast", 11, 17, 18, 0, "Online", "https://lembre.se/qE4AE"),
 	createEvent(5, "InovARI - Empreender é para Todos!", 11, 17, 18, 30, "Araguari", "https://lembre.se/P6uuH"),
 	createEvent(6, "FAGEN: Empreender é servir com propósito", 11, 17, 19, 0, "UFU", "https://lembre.se/CRFHY"),
 	createEvent(7, "Conexão Direito e Negócios", 11, 17, 8, 0, "Center convention", "https://lembre.se/1gKZ0"),

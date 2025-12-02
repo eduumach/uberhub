@@ -125,7 +125,7 @@ export function AppSidebar() {
             <SidebarHeader className="bg-sidebar text-sidebar-foreground p-4 pb-3">
                 <div className="flex items-center px-2">
                     <h1 className="text-2xl font-semibold tracking-tight">
-                        UBER<span className="font-light">HUB</span>
+                        RERI<span className="font-light">VALEY</span>
                     </h1>
                 </div>
             </SidebarHeader>

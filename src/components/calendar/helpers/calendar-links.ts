@@ -31,9 +31,9 @@ export function generateICalendarLink(event: IEvent): string {
     const icsContent = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//Uberhub//Calendar//EN",
+        "PRODID:-//rerivalley//Calendar//EN",
         "BEGIN:VEVENT",
-        `UID:${event.id}@uberhub.com`,
+        `UID:${event.id}@rerivalley.com`,
         `DTSTAMP:${now}`,
         `DTSTART:${startDate}`,
         `DTEND:${endDate}`,

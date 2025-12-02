@@ -28,7 +28,7 @@ const newsContent: Record<string, string> = {
 // Mock data para correspondência com as notícias
 const newsMetadata: Record<string, { title: string; category: string; date: string; image: string }> = {
     "1": {
-        title: "Uberhub lança nova plataforma de integração",
+        title: "rerivalley lança nova plataforma de integração",
         category: "Produto",
         date: "2025-11-20",
         image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&q=80",

@@ -20,13 +20,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
     useEffect(() => {
         // Check for persisted user on mount
-        const storedUser = localStorage.getItem("uberhub_user");
+        const storedUser = localStorage.getItem("rerivalley_user");
         if (storedUser) {
             try {
                 setUser(JSON.parse(storedUser));
             } catch (e) {
                 console.error("Failed to parse stored user", e);
-                localStorage.removeItem("uberhub_user");
+                localStorage.removeItem("rerivalley_user");
             }
         }
         setIsLoading(false);
@@ -37,13 +37,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         // For now, just logging in anyone who enters a name
         const newUser = { username, name: username }; // Simple mock user
         setUser(newUser);
-        localStorage.setItem("uberhub_user", JSON.stringify(newUser));
+        localStorage.setItem("rerivalley_user", JSON.stringify(newUser));
         return true;
     };
 
     const logout = () => {
         setUser(null);
-        localStorage.removeItem("uberhub_user");
+        localStorage.removeItem("rerivalley_user");
     };
 
     return (

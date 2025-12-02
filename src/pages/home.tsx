@@ -45,7 +45,7 @@ export const Home = () => {
             >
                 <div>
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
-                        Bem-vindo ao <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-600">UBERHUB</span>
+                        Bem-vindo ao <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-green-600">rerivalley</span>
                     </h1>
                     <p className="text-muted-foreground mt-2 text-lg max-w-2xl">
                         O ponto de encontro do ecossistema de inovação. Conecte-se, cresça e transforme.
@@ -264,7 +264,7 @@ export const Home = () => {
                             <div className="space-y-4">
                                 <div className="text-sm">
                                     <Badge variant="outline" className="mb-2">Novo</Badge>
-                                    <p className="font-medium">Lançamento do Uberhub 2.0</p>
+                                    <p className="font-medium">Lançamento do rerivalley 2.0</p>
                                     <p className="text-xs text-muted-foreground mt-1">
                                         Confira as novas funcionalidades da plataforma.
                                     </p>
